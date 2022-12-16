@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    background-color: cornflowerblue;
 }
 
 #app{
-    color: blue;
+    color: red;
     text-align: center;
     font-size: 150px;
     margin-top: 250px;
+}
+#app:hover{
+    color: green;
+    cursor: pointer;
+    font-size: 80px;
+    text-decoration: line-through;
+    
 }
